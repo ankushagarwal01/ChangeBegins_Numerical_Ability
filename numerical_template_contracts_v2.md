@@ -397,7 +397,7 @@ Answer: 240
 
 ---
 
-## NUM_RP_L3_005: Ratio Change Over Time
+## NUM_RP_L3_095: Ratio Change Over Time
 
 ```yaml
 domain: Ratios & Proportions
@@ -447,7 +447,7 @@ Answer: 6
 
 ---
 
-## NUM_RP_L3_006: Investment Ratio With Mid-Period Change
+## NUM_RP_L3_096: Investment Ratio With Mid-Period Change
 
 ```yaml
 domain: Ratios & Proportions
@@ -500,7 +500,7 @@ Answer: ₹18,000   (weights 36:36:60, sum 132; 66000 × 36/132)
 
 ---
 
-## NUM_RP_L3_007: Reverse Ratio With Replacement
+## NUM_RP_L3_097: Reverse Ratio With Replacement
 
 ```yaml
 domain: Ratios & Proportions
@@ -587,7 +587,7 @@ For successive-change templates, at least one distractor must be the additive an
 
 ---
 
-## NUM_PC_L1_008: Percent of a Number
+## NUM_PC_L1_007: Percent of a Number
 
 ```yaml
 domain: Percentages & Growth
@@ -632,7 +632,7 @@ Answer: 72
 
 ---
 
-## NUM_PC_L1_009: Percent Change
+## NUM_PC_L1_008: Percent Change
 
 ```yaml
 domain: Percentages & Growth
@@ -677,7 +677,7 @@ Answer: 25%
 
 ---
 
-## NUM_PC_L2_010: Reverse Percentage
+## NUM_PC_L2_009: Reverse Percentage
 
 ```yaml
 domain: Percentages & Growth
@@ -722,7 +722,7 @@ Answer: 800
 
 ---
 
-## NUM_PC_L2_011: Weighted Percentage Across Groups
+## NUM_PC_L2_010: Weighted Percentage Across Groups
 
 ```yaml
 domain: Percentages & Growth
@@ -767,7 +767,7 @@ Answer: 76%
 
 ---
 
-## NUM_PC_L3_012: Successive Percentage Changes
+## NUM_PC_L3_098: Successive Percentage Changes
 
 ```yaml
 domain: Percentages & Growth
@@ -813,7 +813,7 @@ Answer: +20%
 
 ---
 
-## NUM_PC_L3_013: Reverse-Engineer Original From a Multi-Variable Outcome
+## NUM_PC_L3_099: Reverse-Engineer Original From a Multi-Variable Outcome
 
 ```yaml
 domain: Percentages & Growth
@@ -861,7 +861,7 @@ Answer: 30,000
 
 ---
 
-## NUM_PC_L3_014: Successive Discounts and Profit
+## NUM_PC_L3_100: Successive Discounts and Profit
 
 ```yaml
 domain: Percentages & Growth
@@ -948,7 +948,7 @@ For the equal-SP template, one distractor must be "no profit/loss." For the chai
 
 ---
 
-## NUM_PL_L1_015: Profit or Loss Percentage
+## NUM_PL_L1_013: Profit or Loss Percentage
 
 ```yaml
 domain: Profit / Loss / Discount
@@ -993,7 +993,7 @@ Answer: 25%
 
 ---
 
-## NUM_PL_L1_016: Discount Price
+## NUM_PL_L1_014: Discount Price
 
 ```yaml
 domain: Profit / Loss / Discount
@@ -1038,7 +1038,7 @@ Answer: ₹510
 
 ---
 
-## NUM_PL_L2_017: Markup Then Discount
+## NUM_PL_L2_015: Markup Then Discount
 
 ```yaml
 domain: Profit / Loss / Discount
@@ -1084,7 +1084,7 @@ Answer: 5%
 
 ---
 
-## NUM_PL_L2_018: Compare Two Offers
+## NUM_PL_L2_016: Compare Two Offers
 
 ```yaml
 domain: Profit / Loss / Discount
@@ -1128,7 +1128,7 @@ Answer: Offer B at ₹770
 
 ---
 
-## NUM_PL_L2_019: Same Selling Price, One Profit One Loss
+## NUM_PL_L2_101: Same Selling Price, One Profit One Loss
 
 ```yaml
 domain: Profit / Loss / Discount
@@ -1173,7 +1173,7 @@ Answer: Loss of ₹100
 
 ---
 
-## NUM_PL_L3_020: Chain of Transactions
+## NUM_PL_L3_102: Chain of Transactions
 
 ```yaml
 domain: Profit / Loss / Discount
@@ -1219,7 +1219,7 @@ Answer: ₹2,000
 
 ---
 
-## NUM_PL_L3_021: False Weight With Markup
+## NUM_PL_L3_103: False Weight With Markup
 
 ```yaml
 domain: Profit / Loss / Discount
@@ -1302,7 +1302,7 @@ For the batting-average and unknown-group templates, one distractor must come fr
 
 ---
 
-## NUM_AV_L1_022: Simple Average
+## NUM_AV_L1_019: Simple Average
 
 ```yaml
 domain: Averages & Weighted Mean
@@ -1344,7 +1344,7 @@ Answer: 65
 
 ---
 
-## NUM_AV_L2_023: Weighted Average
+## NUM_AV_L2_020: Weighted Average
 
 ```yaml
 domain: Averages & Weighted Mean
@@ -1387,7 +1387,7 @@ Answer: 74
 
 ---
 
-## NUM_AV_L2_024: Replace One Item
+## NUM_AV_L2_021: Replace One Item
 
 ```yaml
 domain: Averages & Weighted Mean
@@ -1429,7 +1429,7 @@ Answer: 68
 
 ---
 
-## NUM_AV_L2_025: Reverse Average (Missing Value)
+## NUM_AV_L2_104: Reverse Average (Missing Value)
 
 ```yaml
 domain: Averages & Weighted Mean
@@ -1472,7 +1472,7 @@ Answer: 75
 
 ---
 
-## NUM_AV_L2_026: Reverse Weighted Average
+## NUM_AV_L2_105: Reverse Weighted Average
 
 ```yaml
 domain: Averages & Weighted Mean
@@ -1517,7 +1517,7 @@ Answer: 10
 
 ---
 
-## NUM_AV_L3_027: Overlapping Subgroups
+## NUM_AV_L3_106: Overlapping Subgroups
 
 ```yaml
 domain: Averages & Weighted Mean
@@ -1559,7 +1559,7 @@ Answer: 20
 
 ---
 
-## NUM_AV_L3_028: Average Shift (Batting Average)
+## NUM_AV_L3_107: Average Shift (Batting Average)
 
 ```yaml
 domain: Averages & Weighted Mean
@@ -1601,7 +1601,7 @@ Answer: 33
 
 ---
 
-## NUM_AV_L3_029: Unknown Group Size
+## NUM_AV_L3_108: Unknown Group Size
 
 ```yaml
 domain: Averages & Weighted Mean
@@ -1683,7 +1683,7 @@ For the add-pure template, one distractor must hold the denominator fixed. For m
 
 ---
 
-## NUM_MA_L1_030: Final Concentration After Mixing
+## NUM_MA_L1_024: Final Concentration After Mixing
 
 ```yaml
 domain: Mixtures & Allegations
@@ -1728,7 +1728,7 @@ Answer: 48%
 
 ---
 
-## NUM_MA_L2_031: Allegation Ratio
+## NUM_MA_L2_025: Allegation Ratio
 
 ```yaml
 domain: Mixtures & Allegations
@@ -1770,7 +1770,7 @@ Answer: 1:1
 
 ---
 
-## NUM_MA_L2_032: One-Step Replacement
+## NUM_MA_L2_026: One-Step Replacement
 
 ```yaml
 domain: Mixtures & Allegations
@@ -1812,7 +1812,7 @@ Answer: 60%
 
 ---
 
-## NUM_MA_L2_033: Multi-Step Replacement
+## NUM_MA_L2_109: Multi-Step Replacement
 
 ```yaml
 domain: Mixtures & Allegations
@@ -1857,7 +1857,7 @@ Answer: 45%
 
 ---
 
-## NUM_MA_L3_034: Three Sources, Equal Amounts
+## NUM_MA_L3_110: Three Sources, Equal Amounts
 
 ```yaml
 domain: Mixtures & Allegations
@@ -1899,7 +1899,7 @@ Answer: 0.6125
 
 ---
 
-## NUM_MA_L3_035: Add Pure Substance
+## NUM_MA_L3_111: Add Pure Substance
 
 ```yaml
 domain: Mixtures & Allegations
@@ -1943,7 +1943,7 @@ Answer: 16 litres
 
 ---
 
-## NUM_MA_L3_036: Reverse Mixture
+## NUM_MA_L3_112: Reverse Mixture
 
 ```yaml
 domain: Mixtures & Allegations
@@ -2021,7 +2021,7 @@ For the doubling and difference templates, one distractor must come from treatin
 
 ---
 
-## NUM_SI_L1_037: Simple Interest
+## NUM_SI_L1_029: Simple Interest
 
 ```yaml
 domain: Simple & Compound Interest
@@ -2066,7 +2066,7 @@ Answer: ₹600
 
 ---
 
-## NUM_CI_L1_038: Compound Interest
+## NUM_CI_L1_031: Compound Interest
 
 ```yaml
 domain: Simple & Compound Interest
@@ -2111,7 +2111,7 @@ Answer: ₹210
 
 ---
 
-## NUM_SI_L2_039: Simple Interest With an Unknown
+## NUM_SI_L2_030: Simple Interest With an Unknown
 
 ```yaml
 domain: Simple & Compound Interest
@@ -2153,7 +2153,7 @@ Answer: ₹3,000
 
 ---
 
-## NUM_CI_L2_040: Compound Interest With Frequency
+## NUM_CI_L2_032: Compound Interest With Frequency
 
 ```yaml
 domain: Simple & Compound Interest
@@ -2196,7 +2196,7 @@ Answer: ₹410
 
 ---
 
-## NUM_CI_L2_041: Compare Two Plans
+## NUM_CI_L2_113: Compare Two Plans
 
 ```yaml
 domain: Simple & Compound Interest
@@ -2239,7 +2239,7 @@ Answer: Plan A
 
 ---
 
-## NUM_SI_L3_042: Doubling / Tripling Time
+## NUM_SI_L3_114: Doubling / Tripling Time
 
 ```yaml
 domain: Simple & Compound Interest
@@ -2281,7 +2281,7 @@ Answer: 16
 
 ---
 
-## NUM_CI_L3_043: CI − SI Difference
+## NUM_CI_L3_115: CI − SI Difference
 
 ```yaml
 domain: Simple & Compound Interest
@@ -2363,7 +2363,7 @@ For the three-equation template, one distractor must average the three pairwise 
 
 ---
 
-## NUM_TW_L1_044: Single Worker
+## NUM_TW_L1_034: Single Worker
 
 ```yaml
 domain: Time & Work
@@ -2405,7 +2405,7 @@ Answer: 1/3
 
 ---
 
-## NUM_TW_L2_045: Two Workers Combined
+## NUM_TW_L2_035: Two Workers Combined
 
 ```yaml
 domain: Time & Work
@@ -2448,7 +2448,7 @@ Answer: 6 days
 
 ---
 
-## NUM_TW_L2_046: Start/Stop Times
+## NUM_TW_L2_036: Start/Stop Times
 
 ```yaml
 domain: Time & Work
@@ -2489,7 +2489,7 @@ Answer: 7.2 days
 
 ---
 
-## NUM_TW_L2_047: Efficiency Multiplier
+## NUM_TW_L2_116: Efficiency Multiplier
 
 ```yaml
 domain: Time & Work
@@ -2532,7 +2532,7 @@ Answer: 26.67 days
 
 ---
 
-## NUM_TW_L3_048: Multi-Phase With a Binding Cap
+## NUM_TW_L3_038: Multi-Phase With a Binding Cap
 
 ```yaml
 domain: Time & Work
@@ -2576,7 +2576,7 @@ Answer: Yes (about 6.3 days)
 
 ---
 
-## NUM_TW_L3_049: Feasibility Under Availability
+## NUM_TW_L3_039: Feasibility Under Availability
 
 ```yaml
 domain: Time & Work
@@ -2621,7 +2621,7 @@ Answer: Yes
 
 ---
 
-## NUM_TW_L3_050: Three-Equation Rate System
+## NUM_TW_L3_117: Three-Equation Rate System
 
 ```yaml
 domain: Time & Work
@@ -2700,7 +2700,7 @@ For the stream-system template, one distractor must average the two trip speeds.
 
 ---
 
-## NUM_TSD_L1_051: Basic Motion
+## NUM_TSD_L1_040: Basic Motion
 
 ```yaml
 domain: Time–Speed–Distance
@@ -2743,7 +2743,7 @@ Answer: 180 km
 
 ---
 
-## NUM_TSD_L2_052: Relative Speed
+## NUM_TSD_L2_041: Relative Speed
 
 ```yaml
 domain: Time–Speed–Distance
@@ -2785,7 +2785,7 @@ Answer: 4 hours
 
 ---
 
-## NUM_TSD_L2_053: Train Crossing
+## NUM_TSD_L2_042: Train Crossing
 
 ```yaml
 domain: Time–Speed–Distance
@@ -2827,7 +2827,7 @@ Answer: 15 s
 
 ---
 
-## NUM_TSD_L3_054: Multi-Segment Routing
+## NUM_TSD_L3_043: Multi-Segment Routing
 
 ```yaml
 domain: Time–Speed–Distance
@@ -2869,7 +2869,7 @@ Answer: Yes (4.5 hours)
 
 ---
 
-## NUM_TSD_L3_055: Optimize Speed for an Arrival Window
+## NUM_TSD_L3_045: Optimize Speed for an Arrival Window
 
 ```yaml
 domain: Time–Speed–Distance
@@ -2911,7 +2911,7 @@ Answer: 60–80 km/h
 
 ---
 
-## NUM_TSD_L3_056: Boats and Streams System
+## NUM_TSD_L3_118: Boats and Streams System
 
 ```yaml
 domain: Time–Speed–Distance
@@ -2990,7 +2990,7 @@ For the proportional-rate template, one distractor must divide the combined time
 
 ---
 
-## NUM_PT_L1_057: One Inlet One Outlet
+## NUM_PT_L1_046: One Inlet One Outlet
 
 ```yaml
 domain: Pipes / Tanks / Flow
@@ -3033,7 +3033,7 @@ Answer: 18 hours
 
 ---
 
-## NUM_PT_L2_058: Multiple Inlets and Outlets
+## NUM_PT_L2_047: Multiple Inlets and Outlets
 
 ```yaml
 domain: Pipes / Tanks / Flow
@@ -3074,7 +3074,7 @@ Answer: 24/7 hours
 
 ---
 
-## NUM_PT_L2_059: Two-Phase Fill
+## NUM_PT_L2_048: Two-Phase Fill
 
 ```yaml
 domain: Pipes / Tanks / Flow
@@ -3115,7 +3115,7 @@ Answer: 18 hours
 
 ---
 
-## NUM_PT_L2_060: Three-Phase Fill
+## NUM_PT_L2_119: Three-Phase Fill
 
 ```yaml
 domain: Pipes / Tanks / Flow
@@ -3156,7 +3156,7 @@ Answer: about 4.67 hours
 
 ---
 
-## NUM_PT_L3_061: Proportional-Rate Pipes
+## NUM_PT_L3_120: Proportional-Rate Pipes
 
 ```yaml
 domain: Pipes / Tanks / Flow
@@ -3200,7 +3200,7 @@ Answer: 28 hours
 
 ---
 
-## NUM_PT_L3_062: Optimize Schedule
+## NUM_PT_L3_050: Optimize Schedule
 
 ```yaml
 domain: Pipes / Tanks / Flow
@@ -3276,7 +3276,7 @@ For the divisibility template, one distractor must count all arrangements withou
 
 ---
 
-## NUM_PN_L1_063: Basic nPr / nCr
+## NUM_PN_L1_050: Basic nPr / nCr
 
 ```yaml
 domain: Permutations & Combinations
@@ -3319,7 +3319,7 @@ Answer: 24
 
 ---
 
-## NUM_PN_L2_064: Choose Permutation vs Combination
+## NUM_PN_L2_051: Choose Permutation vs Combination
 
 ```yaml
 domain: Permutations & Combinations
@@ -3361,7 +3361,7 @@ Answer: 20
 
 ---
 
-## NUM_PN_L2_065: Restricted Arrangements
+## NUM_PN_L2_052: Restricted Arrangements
 
 ```yaml
 domain: Permutations & Combinations
@@ -3404,7 +3404,7 @@ Answer: 48
 
 ---
 
-## NUM_PN_L2_066: Multi-Constraint Counting (Gap Method)
+## NUM_PN_L2_121: Multi-Constraint Counting (Gap Method)
 
 ```yaml
 domain: Permutations & Combinations
@@ -3445,7 +3445,7 @@ Answer: 144
 
 ---
 
-## NUM_PN_L3_067: Divisibility Arrangement
+## NUM_PN_L3_122: Divisibility Arrangement
 
 ```yaml
 domain: Permutations & Combinations
@@ -3485,7 +3485,7 @@ Answer: 20
 
 ---
 
-## NUM_PN_L3_068: Circular With Restriction
+## NUM_PN_L3_123: Circular With Restriction
 
 ```yaml
 domain: Permutations & Combinations
@@ -3562,7 +3562,7 @@ For Bayes, one distractor must use the conditional rate directly without base ra
 
 ---
 
-## NUM_PR_L1_069: Basic Probability
+## NUM_PR_L1_054: Basic Probability
 
 ```yaml
 domain: Probability
@@ -3604,7 +3604,7 @@ Answer: 2/5
 
 ---
 
-## NUM_PR_L2_070: Complement / At-Least-One
+## NUM_PR_L2_055: Complement / At-Least-One
 
 ```yaml
 domain: Probability
@@ -3646,7 +3646,7 @@ Answer: 15/16
 
 ---
 
-## NUM_PR_L2_071: Sequential Draws
+## NUM_PR_L2_056: Sequential Draws
 
 ```yaml
 domain: Probability
@@ -3688,7 +3688,7 @@ Answer: 15/56
 
 ---
 
-## NUM_PR_L3_072: Expected-Value Decision
+## NUM_PR_L3_057: Expected-Value Decision
 
 ```yaml
 domain: Probability
@@ -3729,7 +3729,7 @@ Answer: Option A (EV ₹400)
 
 ---
 
-## NUM_PR_L3_073: Conditional / Bayes
+## NUM_PR_L3_124: Conditional / Bayes
 
 ```yaml
 domain: Probability
@@ -3771,7 +3771,7 @@ Answer: about 0.345
 
 ---
 
-## NUM_PR_L3_074: Conditional on an Event
+## NUM_PR_L3_125: Conditional on an Event
 
 ```yaml
 domain: Probability
@@ -3850,7 +3850,7 @@ Series distractors must come from rule mistakes:
 
 ---
 
-## NUM_NS_L1_075: AP / GP Next Term
+## NUM_NS_L1_058: AP / GP Next Term
 
 ```yaml
 domain: Number Series & Patterns
@@ -3893,7 +3893,7 @@ Answer: 48
 
 ---
 
-## NUM_NS_L2_076: Mixed-Operations Series
+## NUM_NS_L2_059: Mixed-Operations Series
 
 ```yaml
 domain: Number Series & Patterns
@@ -3934,7 +3934,7 @@ Answer: 1440
 
 ---
 
-## NUM_NS_L2_077: Alternating Two-Rule Series
+## NUM_NS_L2_060: Alternating Two-Rule Series
 
 ```yaml
 domain: Number Series & Patterns
@@ -3975,7 +3975,7 @@ Answer: 16
 
 ---
 
-## NUM_NS_L2_078: Rule Identification
+## NUM_NS_L2_126: Rule Identification
 
 ```yaml
 domain: Number Series & Patterns
@@ -4048,7 +4048,7 @@ Number-property distractors must come from:
 
 ---
 
-## NUM_DV_L1_079: Divisibility Check
+## NUM_DV_L1_062: Divisibility Check
 
 ```yaml
 domain: Divisibility / HCF / LCM
@@ -4088,7 +4088,7 @@ Answer: Yes
 
 ---
 
-## NUM_DV_L2_080: Apply LCM / HCF
+## NUM_DV_L2_063: Apply LCM / HCF
 
 ```yaml
 domain: Divisibility / HCF / LCM
@@ -4128,7 +4128,7 @@ Answer: 72
 
 ---
 
-## NUM_DV_L2_081: Prime Factorization Reasoning
+## NUM_DV_L2_064: Prime Factorization Reasoning
 
 ```yaml
 domain: Divisibility / HCF / LCM
@@ -4167,7 +4167,7 @@ Answer: 24
 
 ---
 
-## NUM_DV_L3_082: HCF–LCM Product Relation
+## NUM_DV_L3_127: HCF–LCM Product Relation
 
 ```yaml
 domain: Divisibility / HCF / LCM
@@ -4210,7 +4210,7 @@ Answer: 108
 
 ---
 
-## NUM_DV_L3_083: Common-Remainder Problem
+## NUM_DV_L3_128: Common-Remainder Problem
 
 ```yaml
 domain: Divisibility / HCF / LCM
@@ -4283,7 +4283,7 @@ Modular distractors must come from:
 
 ---
 
-## NUM_RM_L1_084: Simple Remainder
+## NUM_RM_L1_067: Simple Remainder
 
 ```yaml
 domain: Remainders / Modular
@@ -4323,7 +4323,7 @@ Answer: 7
 
 ---
 
-## NUM_RM_L2_085: Remainder Cycles
+## NUM_RM_L2_068: Remainder Cycles
 
 ```yaml
 domain: Remainders / Modular
@@ -4365,7 +4365,7 @@ Answer: 7
 
 ---
 
-## NUM_RM_L3_086: CRT-Style Candidate
+## NUM_RM_L3_069: CRT-Style Candidate
 
 ```yaml
 domain: Remainders / Modular
@@ -4407,7 +4407,7 @@ Answer: 38
 
 ---
 
-## NUM_RM_L3_087: Large-Power Remainder
+## NUM_RM_L3_129: Large-Power Remainder
 
 ```yaml
 domain: Remainders / Modular
@@ -4447,7 +4447,7 @@ Answer: 2
 
 ---
 
-## NUM_RM_L3_088: Last Two Digits
+## NUM_RM_L3_130: Last Two Digits
 
 ```yaml
 domain: Remainders / Modular
@@ -4521,7 +4521,7 @@ For the path template, one distractor must add the width once.
 
 ---
 
-## NUM_MS2_L1_089: Area / Perimeter
+## NUM_MS2_L1_071: Area / Perimeter
 
 ```yaml
 domain: Mensuration 2D
@@ -4563,7 +4563,7 @@ Answer: 154 cm²
 
 ---
 
-## NUM_MS2_L2_090: Composite / Missing Dimension
+## NUM_MS2_L2_072: Composite / Missing Dimension
 
 ```yaml
 domain: Mensuration 2D
@@ -4604,7 +4604,7 @@ Answer: 84 m²
 
 ---
 
-## NUM_MS2_L2_091: Cost With Wastage
+## NUM_MS2_L2_131: Cost With Wastage
 
 ```yaml
 domain: Mensuration 2D
@@ -4646,7 +4646,7 @@ Answer: ₹37,500
 
 ---
 
-## NUM_MS2_L3_092: Path Around a Rectangle
+## NUM_MS2_L3_132: Path Around a Rectangle
 
 ```yaml
 domain: Mensuration 2D
@@ -4688,7 +4688,7 @@ Answer: 156 m²
 
 ---
 
-## NUM_MS2_L3_093: Wire Reshaped
+## NUM_MS2_L3_133: Wire Reshaped
 
 ```yaml
 domain: Mensuration 2D
@@ -4764,7 +4764,7 @@ For the painted-cube template, distractors must come from miscounting which cube
 
 ---
 
-## NUM_MS3_L1_094: Volume / Surface Area
+## NUM_MS3_L1_075: Volume / Surface Area
 
 ```yaml
 domain: Mensuration 3D
@@ -4806,7 +4806,7 @@ Answer: 216 cm³
 
 ---
 
-## NUM_MS3_L2_095: Hollow / Composite
+## NUM_MS3_L2_076: Hollow / Composite
 
 ```yaml
 domain: Mensuration 3D
@@ -4847,7 +4847,7 @@ Answer: 880 cm³
 
 ---
 
-## NUM_MS3_L2_096: Capacity With Efficiency
+## NUM_MS3_L2_134: Capacity With Efficiency
 
 ```yaml
 domain: Mensuration 3D
@@ -4889,7 +4889,7 @@ Answer: 3,600 L
 
 ---
 
-## NUM_MS3_L3_097: Melting and Recasting
+## NUM_MS3_L3_135: Melting and Recasting
 
 ```yaml
 domain: Mensuration 3D
@@ -4930,7 +4930,7 @@ Answer: 216
 
 ---
 
-## NUM_MS3_L3_098: Painted Cube
+## NUM_MS3_L3_136: Painted Cube
 
 ```yaml
 domain: Mensuration 3D
@@ -5005,7 +5005,7 @@ DI distractors must come from:
 
 ---
 
-## NUM_DI_L1_099: Read and Compute
+## NUM_DI_L1_079: Read and Compute
 
 ```yaml
 domain: Data Interpretation
@@ -5043,7 +5043,7 @@ Answer: ₹200L
 
 ---
 
-## NUM_DI_L2_100: Multi-Step Derived Metric
+## NUM_DI_L2_080: Multi-Step Derived Metric
 
 ```yaml
 domain: Data Interpretation
@@ -5081,7 +5081,7 @@ Answer: B by ₹2,000
 
 ---
 
-## NUM_DI_L2_101: Infer Missing Value
+## NUM_DI_L2_081: Infer Missing Value
 
 ```yaml
 domain: Data Interpretation
@@ -5119,7 +5119,7 @@ Answer: ₹100L
 
 ---
 
-## NUM_DI_L3_102: Decision Under Constraint
+## NUM_DI_L3_082: Decision Under Constraint
 
 ```yaml
 domain: Data Interpretation
@@ -5160,7 +5160,7 @@ Answer: A and D
 
 ---
 
-## NUM_DI_L3_103: Sensitivity Analysis
+## NUM_DI_L3_083: Sensitivity Analysis
 
 ```yaml
 domain: Data Interpretation
@@ -5201,7 +5201,7 @@ Answer: Yes, B ties/overtakes A
 
 ---
 
-## NUM_DI_L3_104: Feasibility to Hit a KPI
+## NUM_DI_L3_084: Feasibility to Hit a KPI
 
 ```yaml
 domain: Data Interpretation
@@ -5276,7 +5276,7 @@ Estimation distractors must come from:
 
 ---
 
-## NUM_EST_L1_105: Rounding
+## NUM_EST_L1_085: Rounding
 
 ```yaml
 domain: Estimation & Approximation
@@ -5313,7 +5313,7 @@ Answer: 300
 
 ---
 
-## NUM_EST_L2_106: Bounds-Based Choice
+## NUM_EST_L2_086: Bounds-Based Choice
 
 ```yaml
 domain: Estimation & Approximation
@@ -5353,7 +5353,7 @@ Answer: Below about ₹85.71
 
 ---
 
-## NUM_EST_L2_107: Approximate Product or Ratio
+## NUM_EST_L2_087: Approximate Product or Ratio
 
 ```yaml
 domain: Estimation & Approximation
@@ -5425,7 +5425,7 @@ Allocation distractors must come from:
 
 ---
 
-## NUM_AL_L2_108: Budget With Min/Max Bounds
+## NUM_AL_L2_089: Budget With Min/Max Bounds
 
 ```yaml
 domain: Resource Allocation & Constraints
@@ -5466,7 +5466,7 @@ Answer: ₹33,333
 
 ---
 
-## NUM_AL_L2_109: Capacity Split
+## NUM_AL_L2_090: Capacity Split
 
 ```yaml
 domain: Resource Allocation & Constraints
@@ -5504,7 +5504,7 @@ Answer: 272
 
 ---
 
-## NUM_AL_L3_110: Multi-Constraint Feasibility (Subset)
+## NUM_AL_L3_091: Multi-Constraint Feasibility (Subset)
 
 ```yaml
 domain: Resource Allocation & Constraints
@@ -5521,7 +5521,7 @@ primary_trap: IGNORED_CONSTRAINT
 
 Generate a question asking which combination or subset of items meets budget, ROI, size, or value constraints simultaneously. The student tests combinations against all constraints.
 
-Keep this template distinct from NUM_AL_L3_112: this asks for a feasible **combination/subset**; 093 asks to pick a single valid **option** from a table.
+Keep this template distinct from NUM_AL_L3_093: this asks for a feasible **combination/subset**; 093 asks to pick a single valid **option** from a table.
 
 ### Allowed Variations
 
@@ -5548,7 +5548,7 @@ Answer: B + C (90h, value 150)
 
 ---
 
-## NUM_AL_L3_111: Trade-Off Analysis
+## NUM_AL_L3_092: Trade-Off Analysis
 
 ```yaml
 domain: Resource Allocation & Constraints
@@ -5589,7 +5589,7 @@ Answer: Fast
 
 ---
 
-## NUM_AL_L3_112: Pick Valid Option
+## NUM_AL_L3_093: Pick Valid Option
 
 ```yaml
 domain: Resource Allocation & Constraints
@@ -5606,7 +5606,7 @@ primary_trap: IGNORED_CONSTRAINT
 
 Generate a question with four options described by several attributes and three constraints, asking which is valid. Exactly one survives all constraints.
 
-Keep this template distinct from NUM_AL_L3_110: this is single-option selection from a table, not subset feasibility.
+Keep this template distinct from NUM_AL_L3_091: this is single-option selection from a table, not subset feasibility.
 
 ### Allowed Variations
 
@@ -5632,7 +5632,7 @@ Answer: A and D
 
 ---
 
-## NUM_AL_L3_113: Lever Analysis
+## NUM_AL_L3_094: Lever Analysis
 
 ```yaml
 domain: Resource Allocation & Constraints
