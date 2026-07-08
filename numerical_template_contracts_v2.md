@@ -2066,7 +2066,7 @@ Answer: ₹600
 
 ---
 
-## NUM_CI_L1_137: Compound Interest
+## NUM_CI_L1_031: Compound Interest
 
 ```yaml
 domain: Simple & Compound Interest
@@ -2153,7 +2153,7 @@ Answer: ₹3,000
 
 ---
 
-## NUM_CI_L2_138: Compound Interest With Frequency
+## NUM_CI_L2_032: Compound Interest With Frequency
 
 ```yaml
 domain: Simple & Compound Interest
@@ -3074,7 +3074,7 @@ Answer: 24/7 hours
 
 ---
 
-## NUM_PT_L2_139: Two-Phase Fill
+## NUM_PT_L2_048: Two-Phase Fill
 
 ```yaml
 domain: Pipes / Tanks / Flow
@@ -3200,7 +3200,7 @@ Answer: 28 hours
 
 ---
 
-## NUM_PT_L3_049: Optimize Schedule
+## NUM_PT_L3_050: Optimize Schedule
 
 ```yaml
 domain: Pipes / Tanks / Flow

@@ -1,0 +1,1472 @@
+[
+  {
+    "id": "90b07ca0-bac3-4929-bb61-cae4af037086",
+    "template_id": "NUM_AL_L3_091",
+    "question_text": "A project manager has £12,000 to allocate across software tools. Each tool has an upfront cost, a monthly subscription fee (for 12 months), and an expected return on investment (ROI) over the year. The manager must select a subset of tools such that: (1) total cost (upfront + 12 × monthly) does not exceed £12,000; and (2) the combined ROI is at least 35%. Which subset of tools satisfies both constraints?\n\nTool A: £2,000 upfront, £150/month, 30% ROI\nTool B: £1,500 upfront, £200/month, 45% ROI\nTool C: £3,000 upfront, £100/month, 25% ROI\nTool D: £2,500 upfront, £180/month, 40% ROI",
+    "options": [
+      {
+        "label": "A",
+        "text": "Tools A and C",
+        "is_correct": false
+      },
+      {
+        "label": "B",
+        "text": "Tools B and D",
+        "is_correct": true
+      },
+      {
+        "label": "C",
+        "text": "Tools A, B, and C",
+        "is_correct": false
+      },
+      {
+        "label": "D",
+        "text": "Tools A and D",
+        "is_correct": false
+      }
+    ],
+    "correct_answer": "B",
+    "correct_answer_explanation": "Tools B and D cost: (£1,500 + 12 × £200) + (£2,500 + 12 × £180) = (£1,500 + £2,400) + (£2,500 + £2,160) = £3,900 + £4,660 = £8,560, which is within the £12,000 budget. The combined ROI is the weighted average: ((£3,900 × 0.45) + (£4,660 × 0.40)) / (£8,560) = (£1,755 + £1,864) / £8,560 = £3,619 / £8,560 ≈ 42.3%, which exceeds the 35% minimum. Both constraints are satisfied.",
+    "flag_reason": "Two options are equally defensible as correct. Both Option B (Tools B and D: £8,560 cost, 42.3% ROI) and Option D (Tools A and D: £8,460 cost, 35.5% ROI) satisfy both constraints. A well-prepared test-taker could reasonably select either answer."
+  },
+  {
+    "id": "de5a8650-1e01-428d-b179-276eee0af91e",
+    "template_id": "NUM_AL_L3_091",
+    "question_text": "A project manager must select projects to fund from a list of four candidates. Each project requires an upfront cost and will generate a net return. The total budget is $500,000. Additionally, at least one project must have a return of $80,000 or more to meet the strategic objective. Which subset of projects satisfies both constraints?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Projects A and C (Total cost: $330,000; Projects with return ≥$80,000: A)",
+        "is_correct": true
+      },
+      {
+        "label": "B",
+        "text": "Projects B and C (Total cost: $370,000; Projects with return ≥$80,000: none)",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text": "Projects A and D (Total cost: $380,000; Projects with return ≥$80,000: A and D)",
+        "is_correct": false
+      },
+      {
+        "label": "D",
+        "text": "Projects A, B, and C (Total cost: $550,000; Projects with return ≥$80,000: A)",
+        "is_correct": false
+      }
+    ],
+    "correct_answer": "A",
+    "correct_answer_explanation": "Projects A and C cost $180,000 + $150,000 = $330,000, which is within the $500,000 budget. Project A has a return of $90,000, which meets the strategic requirement of at least one project returning $80,000 or more. Both constraints are satisfied.",
+    "flag_reason": "Two options are equally defensible as correct. Both Option A (Projects A and C) and Option C (Projects A and D) satisfy both stated constraints. The question does not specify an optimization criterion that would make one answer uniquely correct."
+  },
+  {
+    "id": "0110b440-6a0c-4132-9fca-0c47f33162f7",
+    "template_id": "NUM_AL_L3_092",
+    "question_text": "A project manager must choose between two suppliers for a critical component. Supplier A delivers in 8 days at a cost of $120 per unit. Supplier B delivers in 14 days at a cost of $85 per unit. The project values speed at 60% weight and cost at 40% weight. Speed is scored as (14 - delivery_days) to create a 0–14 scale. Cost is scored as (120 - unit_price) to create a 0–120 scale. Which supplier has the higher weighted score?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Supplier A with a weighted score of 8.4",
+        "is_correct": true
+      },
+      {
+        "label": "B",
+        "text": "Supplier B with a weighted score of 6.8",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text": "Supplier A based on speed alone (score of 9.0)",
+        "is_correct": false
+      },
+      {
+        "label": "D",
+        "text": "Supplier B based on cost advantage of 30 points",
+        "is_correct": false
+      }
+    ],
+    "correct_answer": "A",
+    "correct_answer_explanation": "Using the parameters as stated (Supplier A: 8 days, $120; Supplier B: 14 days, $85; weights 60% speed / 40% cost; speed scale 0–14, cost scale 0–120): Supplier A speed score = 14−8 = 6, cost score = 120−120 = 0, weighted = 0.60×6 + 0.40×0 = 3.6. Supplier B speed score = 14−14 = 0, cost score = 120−85 = 35, weighted = 0.60×0 + 0.40×35 = 14. Supplier B actually scores higher (14 vs 3.6); neither result matches the marked value of 8.4.",
+    "flag_reason": "Critical mathematical error. Using the stated parameters, Supplier B has the higher weighted score, not Supplier A. The marked correct answer is factually wrong."
+  },
+  {
+    "id": "299264e7-25e7-4aa9-a159-92f4bcf0fa82",
+    "template_id": "NUM_AL_L3_093",
+    "question_text": "A company is selecting a supplier for a manufacturing contract. Four suppliers have submitted bids with the following attributes:\n\n- Supplier A: Cost per unit = $12, Minimum order = 500 units, Lead time = 14 days\n- Supplier B: Cost per unit = $10, Minimum order = 1000 units, Lead time = 7 days\n- Supplier C: Cost per unit = $11, Minimum order = 750 units, Lead time = 10 days\n- Supplier D: Cost per unit = $9, Minimum order = 2000 units, Lead time = 21 days\n\nThe company has the following requirements:\n- Budget available for initial order: $10,000\n- Must receive delivery within 14 days\n- Must be able to order at least 600 units in the initial order\n\nWhich supplier meets all three requirements?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Supplier A",
+        "is_correct": false
+      },
+      {
+        "label": "B",
+        "text": "Supplier B",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text": "Supplier C",
+        "is_correct": true
+      },
+      {
+        "label": "D",
+        "text": "Supplier D",
+        "is_correct": false
+      }
+    ],
+    "correct_answer": "C",
+    "correct_answer_explanation": "Supplier C meets all three constraints: (1) 600 units at $11 each = $6,600, within the $10,000 budget. (2) Its minimum order is 750 units, which allows the required 600 units. (3) Its lead time is 10 days, within the required 14-day window.",
+    "flag_reason": "Multiple options are equally defensible as correct. Suppliers A, B, and C all satisfy all three stated requirements (A: $7,200 cost/500-unit minimum/14-day lead time; B: $10,000 cost/1,000-unit minimum/7-day lead time; C: $8,250 cost/750-unit minimum/10-day lead time). A well-prepared test-taker could defensibly select A, B, or C."
+  },
+  {
+    "id": "45cadc2c-d2b5-4197-ad03-e9fc96a6a487",
+    "template_id": "NUM_AL_L3_094",
+    "question_text": "A company currently sells 500 units per month at $80 per unit, with a variable cost of $32 per unit. Management is considering three levers to improve monthly profit:\n\nLever A: Reduce variable cost by $4 per unit\nLever B: Increase price by $6 per unit (volume drops to 450 units)\nLever C: Increase volume by 20% through marketing (price and cost remain unchanged)\n\nWhich lever generates the largest improvement to monthly profit?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Lever A (reduce variable cost by $4/unit) – improves profit by $2,000/month",
+        "is_correct": true
+      },
+      {
+        "label": "B",
+        "text": "Lever B (increase price by $5/unit) – improves profit by $1,200/month",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text": "Lever C (increase volume by 10%) – improves profit by $2,400/month",
+        "is_correct": false
+      },
+      {
+        "label": "D",
+        "text": "Lever B (increase price by $5/unit) – improves profit by $3,300/month",
+        "is_correct": false
+      }
+    ],
+    "correct_answer": "A",
+    "correct_answer_explanation": "Current profit: (80 − 32) × 500 = $24,000/month. Lever A (as worded, $4/unit cost reduction): (80 − 28) × 500 = $26,000/month, an improvement of $2,000. Lever B: new price $86, volume drops to 450, profit = (86 − 32) × 450 = $24,300/month, improvement of $300. Lever C: volume rises 20% to 600 units, profit = (80 − 32) × 600 = $28,800/month, improvement of $4,800 — larger than Lever A's improvement, contradicting the marked answer.",
+    "flag_reason": "The marked correct answer (Option A) is internally inconsistent: the option text states a $4/unit reduction improving profit by $2,000/month, but under the passage's own numbers Lever C actually produces a larger ($4,800) improvement, contradicting the claim that Lever A is largest."
+  },
+  {
+    "id": "9c89f967-a506-4260-8817-4450329cdc55",
+    "template_id": "NUM_AV_L2_020",
+    "question_text": "A student receives grades in four subjects with different credit weights. Mathematics (weight 4) received a grade of 85, Science (weight 3) received a grade of 78, English (weight 2) received a grade of 92, and History (weight 1) received a grade of 88. What is the weighted average grade?",
+    "options": [
+      {
+        "label": "A",
+        "text": "84.3",
+        "is_correct": true
+      },
+      {
+        "label": "B",
+        "text": "85.8",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text": "80.75",
+        "is_correct": false
+      },
+      {
+        "label": "D",
+        "text": "85.5",
+        "is_correct": false
+      }
+    ],
+    "correct_answer": "A",
+    "correct_answer_explanation": "Total = (85×4) + (78×3) + (92×2) + (88×1) = 340 + 234 + 184 + 88 = 846. Sum of weights = 4+3+2+1 = 10. Weighted average = 846 ÷ 10 = 84.6.",
+    "flag_reason": "Mathematical error: the correct weighted average using the passage data is 84.6, but option A is marked correct with the value 84.3. No option among A–D matches the correct answer of 84.6."
+  },
+  {
+    "id": "0e846dc7-9d46-4e0c-978d-c9bf6ddf7f9f",
+    "template_id": "NUM_AV_L3_106",
+    "question_text": "A company's sales team has 40 employees. The first 16 employees have an average monthly sales of 12,000 dollars. The last 18 employees have an average monthly sales of 18,000 dollars. What is the average monthly sales for the remaining employees?",
+    "options": [
+      {
+        "label": "A",
+        "text": "20,000 dollars",
+        "is_correct": true
+      },
+      {
+        "label": "B",
+        "text": "15,000 dollars",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text": "15,900 dollars",
+        "is_correct": false
+      },
+      {
+        "label": "D",
+        "text": "25,000 dollars",
+        "is_correct": false
+      }
+    ],
+    "correct_answer": "A",
+    "correct_answer_explanation": "First 16 employees total: 16 × 12,000 = 192,000. Last 18 employees total: 18 × 18,000 = 324,000. Combined = 516,000 for 34 employees, leaving 6 remaining employees. Without either the overall total or overall average for all 40 employees, the remaining group's total (and thus average) cannot be determined; the marked answer of 20,000 is asserted without a supporting overall total.",
+    "flag_reason": "The question cannot be solved from the information given. No overall average or total sales figure for all 40 employees is provided, so the average for the remaining 6 employees is indeterminate. The marked answer works backward from an unstated assumption rather than forward from the given premises."
+  },
+  {
+    "id": "78a1ae0f-18fd-4101-90ea-5230d0aa4b3f",
+    "template_id": "NUM_AV_L3_106",
+    "question_text": "A company tracks employee satisfaction across departments. The overall average satisfaction score for all 120 employees is 75. The first 45 employees (Administration) have an average score of 82. The last 40 employees (Operations) have an average score of 68. What is the average satisfaction score for the remaining employees (Marketing)?",
+    "options": [
+      {
+        "label": "A",
+        "text": "73",
+        "is_correct": true
+      },
+      {
+        "label": "B",
+        "text": "75",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text": "70",
+        "is_correct": false
+      },
+      {
+        "label": "D",
+        "text": "75.5",
+        "is_correct": false
+      }
+    ],
+    "correct_answer": "A",
+    "correct_answer_explanation": "Overall total = 120 × 75 = 9,000. Administration total = 45 × 82 = 3,690. Operations total = 40 × 68 = 2,720. Marketing total = 9,000 − 3,690 − 2,720 = 2,590. Marketing count = 120 − 45 − 40 = 35. Marketing average = 2,590 ÷ 35 = 74.",
+    "flag_reason": "Mathematical error: the correct Marketing average is 74 (2,590 ÷ 35), but option A is marked correct while displaying '73'. No option among A–D equals the correct answer of 74."
+  },
+  {
+    "id": "e907b592-06fb-4fe2-a619-005bff466a13",
+    "template_id": "NUM_CI_L1_137",
+    "question_text": "A principal of $2,000 is invested at a compound interest rate of 10% per annum for 3 years. What is the compound interest earned?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$662",
+        "is_correct": true
+      },
+      {
+        "label": "B",
+        "text": "$600",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text": "$2,662",
+        "is_correct": false
+      },
+      {
+        "label": "D",
+        "text": "$662.00",
+        "is_correct": false
+      }
+    ],
+    "correct_answer": "A",
+    "correct_answer_explanation": "A = P(1 + R/100)^T = 2000(1.1)^3 = 2000 × 1.331 = $2,662. Compound interest = A − P = $2,662 − $2,000 = $662.",
+    "flag_reason": "Options A ('$662') and D ('$662.00') are numerically identical, only differing in formatting. Both are equally defensible as correct, violating the requirement that exactly one option be correct."
+  },
+  {
+    "id": "337eb3a8-54aa-4421-95af-c9eafe043069",
+    "template_id": "NUM_CI_L2_113",
+    "question_text": "Maya has two investment options. Plan A: invest $2000 at 5% simple interest per year. Plan B: invest $1500 at 8% compound interest per year, compounded annually. After 3 years, which plan yields more money, and by how much?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Plan A yields more by $100",
+        "is_correct": false
+      },
+      {
+        "label": "B",
+        "text": "Plan B yields more by $101.20",
+        "is_correct": true
+      },
+      {
+        "label": "C",
+        "text": "Plan A yields more by $410.43",
+        "is_correct": false
+      },
+      {
+        "label": "D",
+        "text": "Plan A yields more by $500",
+        "is_correct": false
+      }
+    ],
+    "correct_answer": "B",
+    "correct_answer_explanation": "Plan A (simple interest): 2000 + (2000 × 0.05 × 3) = 2000 + 300 = $2,300. Plan B (compound interest): 1500 × (1.08)^3 = 1500 × 1.259712 ≈ $1,889.57. Under these figures, Plan A ($2,300) is actually larger than Plan B (≈$1,889.57), by about $410.43 — the opposite of the marked answer.",
+    "flag_reason": "Mathematical error: independent calculation shows Plan A yields $2,300 while Plan B yields about $1,889.57, making Plan A larger by roughly $410.43. The marked correct answer (Option B, 'Plan B yields more by $101.20') is mathematically incorrect given the stated parameters. No option correctly answers the question as posed."
+  },
+  {
+    "id": "96c5ae3a-7a99-4d4c-897b-545c4ad823e4",
+    "template_id": "NUM_CI_L2_113",
+    "question_text": "Maya is comparing two savings plans for her small business. Plan A offers $5,000 invested at 8% simple interest per year. Plan B offers $4,000 invested at 10% compound interest per year, compounded annually. After 3 years, which plan will have grown to a larger amount, and by how much?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Plan A will have $5,200 and is larger by $200.",
+        "is_correct": false
+      },
+      {
+        "label": "B",
+        "text": "Plan B will have $5,324 and is larger by $524.",
+        "is_correct": true
+      },
+      {
+        "label": "C",
+        "text": "Plan B will have $5,324 and is larger by $1,124.",
+        "is_correct": false
+      },
+      {
+        "label": "D",
+        "text": "Plan A will have $6,200 and is larger by $876.",
+        "is_correct": false
+      }
+    ],
+    "correct_answer": "B",
+    "correct_answer_explanation": "Plan A (simple interest): A = 5000(1 + 0.08×3) = 5000 × 1.24 = $6,200. Plan B (compound interest): A = 4000(1.10)^3 = 4000 × 1.331 = $5,324. Plan A ($6,200) is actually larger than Plan B ($5,324) by $876 — this matches Option D, not the marked Option B.",
+    "flag_reason": "Mathematical error: the marked correct answer (Option B) is incorrect. Correct calculation shows Plan A = $6,200 and Plan B = $5,324, so Plan A is larger by $876 (which is Option D's text), not Plan B larger by $524 as Option B claims."
+  },
+  {
+    "id": "ec20d100-7378-4ea8-b40a-72aa4fed8ec4",
+    "template_id": "NUM_CI_L2_138",
+    "question_text": "A principal of $8,000 is invested at an annual interest rate of 12% compounded half-yearly for 2 years. Calculate the compound interest earned.",
+    "options": [
+      {
+        "label": "A",
+        "text": "$2,119.04",
+        "is_correct": true
+      },
+      {
+        "label": "B",
+        "text": "$2,880.00",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text": "$1,920.00",
+        "is_correct": false
+      },
+      {
+        "label": "D",
+        "text": "$2,476.92",
+        "is_correct": false
+      }
+    ],
+    "correct_answer": "A",
+    "correct_answer_explanation": "Half-yearly rate = 6%, periods = 4. A = 8000(1.06)^4 = 8000 × 1.26247696 ≈ $10,099.82. Compound interest = 10,099.82 − 8,000 ≈ $2,099.82, not the marked $2,119.04.",
+    "flag_reason": "Mathematical error: the correct compound interest is $2,099.82 (A = 8000(1.06)^4 = 10,099.82), but option A is marked correct with the value $2,119.04, which is incorrect. No option contains the mathematically correct answer."
+  },
+  {
+    "id": "01b7bcff-c4a8-473c-a646-c24e0f814260",
+    "template_id": "NUM_DI_L1_079",
+    "question_text": "A bakery sells four types of bread rolls. The table below shows the number of rolls sold each day:\n\n| Roll Type | Monday | Tuesday | Wednesday |\n|-----------|--------|---------|----------|\n| Whole Wheat | 24 | 18 | 22 |\n| Sourdough | 16 | 20 | 14 |\n| Rye | 12 | 15 | 18 |\n| Focaccia | 28 | 27 | 26 |\n\nHow many Whole Wheat rolls were sold across all three days?",
+    "options": [
+      {
+        "label": "A",
+        "text": "64",
+        "is_correct": false
+      },
+      {
+        "label": "B",
+        "text": "65",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text": "64",
+        "is_correct": true
+      },
+      {
+        "label": "D",
+        "text": "70",
+        "is_correct": false
+      }
+    ],
+    "correct_answer": "C",
+    "correct_answer_explanation": "24 + 18 + 22 = 64 rolls.",
+    "flag_reason": "Duplicate option text: both option A and option C read '64', creating ambiguity about which option is the intended correct answer, even though C is the one marked correct."
+  },
+  {
+    "id": "1b12bcf1-0e0f-4589-a469-e3cab563a7e0",
+    "template_id": "NUM_DI_L3_084",
+    "question_text": "A SaaS company currently has 50,000 active subscribers. The leadership team has set a KPI target of 80,000 subscribers within 2 years. The maximum sustainable growth rate is 20% per year (compound). Can the company reach its target if it grows at the maximum rate for 2 years?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Yes, the target is feasible. At 20% compound growth, the company reaches 72,000 subscribers after 2 years, which falls short of 80,000.",
+        "is_correct": true
+      },
+      {
+        "label": "B",
+        "text": "Yes, the target is feasible. The company reaches 82,000 subscribers after 2 years at 20% compound growth.",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text": "No, the target is not feasible. At 20% annual growth, the company reaches only 70,000 subscribers after 2 years.",
+        "is_correct": false
+      },
+      {
+        "label": "D",
+        "text": "Yes, the target is feasible. Using linear growth at 20% per year, the company reaches 90,000 subscribers in 2 years.",
+        "is_correct": false
+      }
+    ],
+    "correct_answer": "A",
+    "correct_answer_explanation": "Year 1: 50,000 × 1.20 = 60,000. Year 2: 60,000 × 1.20 = 72,000. Since 72,000 < 80,000, the target cannot be met even at maximum growth rate. The correct conclusion is that the target is NOT feasible.",
+    "flag_reason": "Option A (marked correct) is internally self-contradictory: its text opens with 'Yes, the target is feasible' but the numbers it cites (72,000 < 80,000) show the target is NOT feasible. Option C reaches the correct conclusion but has an arithmetic error (70,000 instead of 72,000). No option is both internally consistent and mathematically accurate."
+  },
+  {
+    "id": "8563310b-28f9-41ea-8be3-fa1fbc52eace",
+    "template_id": "NUM_DI_L3_084",
+    "question_text": "A SaaS company currently has 50,000 active subscribers. They have set a KPI target of 80,000 subscribers at the end of Year 3. The maximum sustainable growth rate is 15% per year (compounded annually). Can they hit their target? Assume growth is applied at the end of each year.",
+    "options": [
+      {
+        "label": "A",
+        "text": "Yes, the target is feasible. At 15% annual growth, they will reach approximately 76,036 subscribers after Year 3, falling short by 3,964, but the question asks if max growth allows the target, and they will reach 76,036 which is below the target of 80,000. Actually, no—they will fall short.",
+        "is_correct": true
+      },
+      {
+        "label": "B",
+        "text": "Yes, the target is feasible. At 15% annual growth, they will exceed 80,000 subscribers.",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text": "Yes, the target is feasible. Using linear growth at 15% per year, they will accumulate 50,000 + (50,000 × 0.15 × 3) = 72,500 + growth, reaching beyond 80,000.",
+        "is_correct": false
+      },
+      {
+        "label": "D",
+        "text": "No, the target is not feasible. The company would need at least 20% annual growth to reach 80,000 subscribers in 3 years.",
+        "is_correct": false
+      }
+    ],
+    "correct_answer": "A",
+    "correct_answer_explanation": "Year 1: 50,000 × 1.15 = 57,500. Year 2: 57,500 × 1.15 = 66,125. Year 3: 66,125 × 1.15 ≈ 76,044. Since 76,044 < 80,000, the target cannot be reached at 15% growth. The cleanly-worded, non-contradictory version of this conclusion is Option D ('No, the target is not feasible'), not the self-contradictory Option A that is marked correct.",
+    "flag_reason": "Option A (marked correct) is self-contradictory, stating both 'Yes, the target is feasible' and 'Actually, no—they will fall short.' The cleanly correct answer is Option D, which correctly states the target is not feasible (76,044 < 80,000), but it is not the one marked correct."
+  },
+  {
+    "id": "ce472f97-109d-4074-af9d-814371ab9cc6",
+    "template_id": "NUM_EST_L2_086",
+    "question_text": "A printing company offers two pricing plans for custom brochures:\n\n• Plan A: $200 setup fee plus $0.50 per brochure\n• Plan B: $50 setup fee plus $1.20 per brochure\n\nAt what quantity do the two plans cost the same?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Approximately 214 brochures",
+        "is_correct": false
+      },
+      {
+        "label": "B",
+        "text": "Approximately 150 brochures",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text": "Approximately 214 brochures",
+        "is_correct": true
+      },
+      {
+        "label": "D",
+        "text": "Approximately 250 brochures",
+        "is_correct": false
+      }
+    ],
+    "correct_answer": "C",
+    "correct_answer_explanation": "Set costs equal: 200 + 0.50q = 50 + 1.20q → 150 = 0.70q → q = 150 ÷ 0.70 ≈ 214.3 brochures. At this crossover point, both plans cost about $307.",
+    "flag_reason": "Duplicate option text: options A and C both read 'Approximately 214 brochures', with A marked incorrect and C marked correct. The math itself is sound, but the duplicated option creates an ambiguous, unfair question."
+  },
+  {
+    "id": "bc1bfc70-c9a8-44d9-944d-c06bd29535f3",
+    "template_id": "NUM_MA_L2_025",
+    "question_text": "A chemist needs to mix two solutions to create a final mixture with a specific concentration. Solution A contains 30% active ingredient, and Solution B contains 70% active ingredient. In what ratio (by volume) should the two solutions be mixed to obtain a final mixture with 50% active ingredient?",
+    "options": [
+      {
+        "label": "A",
+        "text": "2:1",
+        "is_correct": false
+      },
+      {
+        "label": "B",
+        "text": "1:2",
+        "is_correct": true
+      },
+      {
+        "label": "C",
+        "text": "3:1",
+        "is_correct": false
+      },
+      {
+        "label": "D",
+        "text": "1:3",
+        "is_correct": false
+      }
+    ],
+    "correct_answer": "B",
+    "correct_answer_explanation": "By the alligation rule: (70−50):(50−30) = 20:20 = 1:1. The correct mixing ratio to reach 50% is 1:1 (equal parts), which is not among the given options. None of the listed ratios (2:1, 1:2, 3:1, 1:3) actually yields 50%.",
+    "flag_reason": "Mathematical error: the correct alligation ratio for 50% concentration is 1:1 (equal parts), which does not appear among the options. Testing the given options: 2:1 yields 43.33%, 1:2 yields 56.67%, 3:1 yields 40%, and 1:3 yields 60%. The marked answer (B, 1:2) is mathematically incorrect."
+  },
+  {
+    "id": "5c0fec5f-62b4-414f-a9b0-74769b0df155",
+    "template_id": "NUM_MA_L2_109",
+    "question_text": "A container holds 100 litres of salt solution at 80% concentration. The process is repeated 3 times: drain 1/4 of the current solution and refill with pure water. What is the concentration of salt in the container after all three operations?",
+    "options": [
+      {
+        "label": "A",
+        "text": "42.1875%",
+        "is_correct": true
+      },
+      {
+        "label": "B",
+        "text": "56.25%",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text": "37.5%",
+        "is_correct": false
+      },
+      {
+        "label": "D",
+        "text": "48.4375%",
+        "is_correct": false
+      }
+    ],
+    "correct_answer": "A",
+    "correct_answer_explanation": "Final concentration = initial × (1 − drain fraction)^n = 0.80 × (0.75)^3 = 0.80 × 0.421875 = 0.3375, or 33.75%. The marked answer of 42.1875% would only be correct if the initial concentration were 100% pure salt, not the 80% stated in the passage.",
+    "flag_reason": "Mathematical error: the correct answer is 33.75% (0.80 × 0.75^3), not the marked 42.1875%, which corresponds to an initial concentration of 100%, not the stated 80%. No correct option exists among A–D."
+  },
+  {
+    "id": "71c21289-b735-4862-bb36-1a4fffa0377f",
+    "template_id": "NUM_MA_L2_109",
+    "question_text": "A tank contains 100 litres of salt solution at 60% concentration. Three times in succession, 25 litres are drained from the tank and replaced with pure water. What is the final concentration of salt in the tank (as a percentage)?",
+    "options": [
+      {
+        "label": "A",
+        "text": "45%",
+        "is_correct": false
+      },
+      {
+        "label": "B",
+        "text": "31.64%",
+        "is_correct": true
+      },
+      {
+        "label": "C",
+        "text": "33.75%",
+        "is_correct": false
+      },
+      {
+        "label": "D",
+        "text": "42.19%",
+        "is_correct": false
+      }
+    ],
+    "correct_answer": "B",
+    "correct_answer_explanation": "Each drain-and-refill step multiplies concentration by (1−0.25)=0.75. After 3 steps: 60 × (0.75)^3 = 60 × 0.421875 = 25.3125%, not 31.64%. The marked value of 31.64% would only follow from an initial concentration of 75%, not the stated 60%.",
+    "flag_reason": "Mathematical error: with the stated parameters (60% initial concentration), the correct answer is 25.3125%, not the marked 31.64%. The 31.64% figure only works if the initial concentration were 75%. No option is correct for the problem as stated."
+  },
+  {
+    "id": "3da0616f-e6cd-46c1-876b-cbb9a9fdcd65",
+    "template_id": "NUM_MA_L3_110",
+    "question_text": "Two gold alloys are mixed in equal amounts. The first alloy contains gold and copper in the ratio 3:5. The second alloy contains gold and copper in the ratio 7:9. What fraction of the resulting mixture is gold?",
+    "options": [
+      {
+        "label": "A",
+        "text": "41/72",
+        "is_correct": false
+      },
+      {
+        "label": "B",
+        "text": "41/96",
+        "is_correct": true
+      },
+      {
+        "label": "C",
+        "text": "10/24",
+        "is_correct": false
+      },
+      {
+        "label": "D",
+        "text": "5/8",
+        "is_correct": false
+      }
+    ],
+    "correct_answer": "B",
+    "correct_answer_explanation": "Alloy 1 gold fraction = 3/8. Alloy 2 gold fraction = 7/16. Mixed in equal amounts: (3/8 + 7/16)/2 = (6/16 + 7/16)/2 = 13/32 = 39/96, not 41/96.",
+    "flag_reason": "Mathematical error: using the ratios stated (3:5 and 7:9), the correct answer is 13/32 (=39/96). The marked correct answer B (41/96) is mathematically incorrect for these given ratios. No option among A–D is actually correct for the problem as written."
+  },
+  {
+    "id": "bb4c8af1-6679-4358-af28-69f9ca441bab",
+    "template_id": "NUM_MA_L3_110",
+    "question_text": "An alloy is made by mixing equal amounts of three metals. The first metal is 3 parts gold to 5 parts copper. The second metal is 1 part gold to 4 parts copper. The third metal is 2 parts gold to 3 parts copper. What fraction of the final alloy is gold?",
+    "options": [
+      {
+        "label": "A",
+        "text": "9/24 (or 3/8)",
+        "is_correct": false
+      },
+      {
+        "label": "B",
+        "text": "79/216",
+        "is_correct": true
+      },
+      {
+        "label": "C",
+        "text": "6/12 (or 1/2)",
+        "is_correct": false
+      },
+      {
+        "label": "D",
+        "text": "2/5",
+        "is_correct": false
+      }
+    ],
+    "correct_answer": "B",
+    "correct_answer_explanation": "Metal 1 gold fraction = 3/8, Metal 2 = 1/5, Metal 3 = 2/5. Common denominator 40: 15/40 + 8/40 + 16/40 = 39/40. Average over 3 metals = 39/120 = 13/40 (≈0.325), not 79/216 (≈0.366).",
+    "flag_reason": "Mathematical error: the correct answer is 13/40, derived by averaging the three gold fractions. The marked correct answer of 79/216 is incorrect. No option presents the correct answer 13/40."
+  },
+  {
+    "id": "0c520e78-5859-4dae-98c6-f0b954604d86",
+    "template_id": "NUM_MA_L3_111",
+    "question_text": "A chemist has 120 mL of a salt solution with a concentration of 25%. How many millilitres of pure salt must be added to reach a concentration of 40%?",
+    "options": [
+      {
+        "label": "A",
+        "text": "40 mL",
+        "is_correct": true
+      },
+      {
+        "label": "B",
+        "text": "30 mL",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text": "36 mL",
+        "is_correct": false
+      },
+      {
+        "label": "D",
+        "text": "24 mL",
+        "is_correct": false
+      }
+    ],
+    "correct_answer": "A",
+    "correct_answer_explanation": "Set up (30+x)/(120+x) = 0.40 (initial salt = 120×0.25 = 30 mL). Solving: 30+x = 48+0.40x → 0.60x = 18 → x = 30 mL, not 40 mL. Verification: (30+30)/(120+30) = 60/150 = 0.40 ✓, while (30+40)/(120+40) = 70/160 = 0.4375 ≠ 0.40.",
+    "flag_reason": "Mathematical error: the correct answer is 30 mL (Option B), not 40 mL (Option A) which is marked correct. Using the stated problem parameters, the equation yields x = 30, verified by substitution; x = 40 does not satisfy the 40% target."
+  },
+  {
+    "id": "a3fc3512-f499-48a6-b507-7f65c94668ef",
+    "template_id": "NUM_MA_L3_112",
+    "question_text": "A chemist needs to prepare 80 liters of a 35% alcohol solution by mixing two available solutions: one containing 20% alcohol and another containing 60% alcohol. How many liters of the 20% solution must be used?",
+    "options": [
+      {
+        "label": "A",
+        "text": "40 liters",
+        "is_correct": true
+      },
+      {
+        "label": "B",
+        "text": "32 liters",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text": "48 liters",
+        "is_correct": false
+      },
+      {
+        "label": "D",
+        "text": "56 liters",
+        "is_correct": false
+      }
+    ],
+    "correct_answer": "A",
+    "correct_answer_explanation": "x + y = 80; 0.20x + 0.60y = 0.35×80 = 28. Substituting y = 80−x: 0.20x + 48 − 0.60x = 28 → −0.40x = −20 → x = 50 liters, not 40. The marked answer of 40 liters would only be correct for an 80L mixture targeting 40% concentration, not the stated 35%.",
+    "flag_reason": "Mathematical/factual error: the correct answer to the stated problem (80L, 35% target, mixing 20%/60% solutions) is 50 liters of the 20% solution. This does not appear among the options. The marked answer (A, 40 liters) is mathematically incorrect — 40 liters would only yield a 40% concentration, not 35%."
+  },
+  {
+    "id": "ea8fb6c1-ba8f-46f0-8b47-4edd630d2b77",
+    "template_id": "NUM_MA_L3_112",
+    "question_text": "A chemist combines two alcohol solutions to create a final mixture. Solution A contains 30% alcohol, and Solution B contains 70% alcohol. The chemist mixes these solutions to produce 50 litres of a 60% alcohol mixture. How many litres of Solution A were used?",
+    "options": [
+      {
+        "label": "A",
+        "text": "25 litres",
+        "is_correct": true
+      },
+      {
+        "label": "B",
+        "text": "20 litres",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text": "30 litres",
+        "is_correct": false
+      },
+      {
+        "label": "D",
+        "text": "10 litres",
+        "is_correct": false
+      }
+    ],
+    "correct_answer": "A",
+    "correct_answer_explanation": "x + y = 50; 0.30x + 0.70(50−x) = 0.60×50 = 30. Solving: 0.30x + 35 − 0.70x = 30 → −0.40x = −5 → x = 12.5 litres, not 25 litres.",
+    "flag_reason": "Mathematical error: given the stated parameters (60% target, 50 litres), the correct answer is 12.5 litres of Solution A, which is not among the options. The marked correct answer (Option A: 25 litres) is incorrect for the problem as stated; 25 litres would only be correct for a 50% target, not 60%."
+  },
+  {
+    "id": "cbd022e8-59b9-4eaa-bc3d-69060df24d16",
+    "template_id": "NUM_MS2_L2_131",
+    "question_text": "A rectangular room measures 8 m × 6 m and needs to be tiled. The tiles cost ₹150 per square metre. However, 20% extra material must be ordered to account for breakage and wastage during installation. What is the total cost of the tiles needed?",
+    "options": [
+      {
+        "label": "A",
+        "text": "₹14,400",
+        "is_correct": true
+      },
+      {
+        "label": "B",
+        "text": "₹12,960",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text": "₹7,200",
+        "is_correct": false
+      },
+      {
+        "label": "D",
+        "text": "₹17,280",
+        "is_correct": false
+      }
+    ],
+    "correct_answer": "A",
+    "correct_answer_explanation": "Net area = 8×6 = 48 m². The marked answer treats wastage as requiring gross area = 48 ÷ 0.80 = 60 m², cost = 60×150 = ₹14,400. However, the passage says '20% extra material must be ordered', which more naturally means ordering 48 × 1.20 = 57.6 m², costing ₹8,640.",
+    "flag_reason": "The marked correct answer is mathematically inconsistent with the problem's wording. '20% extra material must be ordered' means ordering an additional 20% beyond the 48 m² requirement (57.6 m², ₹8,640), not the inverse wastage calculation (48 ÷ 0.80 = 60 m², ₹14,400) used to justify the marked answer. No option among A–D reflects the ₹8,640 figure implied by the stated wording."
+  },
+  {
+    "id": "29305d8e-b918-4f6f-86f9-9f7bb535e34e",
+    "template_id": "NUM_MS2_L3_133",
+    "question_text": "A wire of length 88 cm is bent into a circle. If the same wire is instead bent into a square, which shape encloses the greater area, and by how much?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The circle encloses a greater area by 56 cm²",
+        "is_correct": true
+      },
+      {
+        "label": "B",
+        "text": "The square encloses a greater area by 24 cm²",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text": "The circle and square enclose equal areas",
+        "is_correct": false
+      },
+      {
+        "label": "D",
+        "text": "The circle encloses a greater area by 132 cm²",
+        "is_correct": false
+      }
+    ],
+    "correct_answer": "A",
+    "correct_answer_explanation": "Circle: circumference 88 → r = 14 cm (using π=22/7), area = (22/7)×196 = 616 cm². Square: perimeter 88 → side 22 cm, area = 484 cm². Difference = 616 − 484 = 132 cm², matching Option D, not the marked Option A (56 cm²).",
+    "flag_reason": "Mathematical error: the correct answer is 132 cm² (616 − 484), which is Option D's text. However, Option A is marked correct with an answer of 56 cm², which is mathematically wrong — the explanation for Option A even derives 132 internally, directly contradicting its own marked value."
+  },
+  {
+    "id": "3f1f5a31-2eb2-4fac-a4a7-94f67d84e999",
+    "template_id": "NUM_MS3_L2_076",
+    "question_text": "A decorative metal pipe has an outer radius of 7 cm and an inner radius of 5 cm. The pipe is 12 cm long. What is the volume of metal used to make the pipe? (Use π = 22/7)",
+    "options": [
+      {
+        "label": "A",
+        "text": "904 cm³",
+        "is_correct": true
+      },
+      {
+        "label": "B",
+        "text": "1848 cm³",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text": "792 cm³",
+        "is_correct": false
+      },
+      {
+        "label": "D",
+        "text": "1056 cm³",
+        "is_correct": false
+      }
+    ],
+    "correct_answer": "A",
+    "correct_answer_explanation": "Outer volume = (22/7)×49×12 = 1,848 cm³. Inner volume = (22/7)×25×12 = 6,600/7 ≈ 942.857 cm³ (not a clean integer with these parameters). Volume of metal ≈ 1,848 − 942.857 ≈ 905.14 cm³, not the marked 904 cm³.",
+    "flag_reason": "With the stated parameters (R=7, r=5, h=12, π=22/7), the inner-volume calculation does not yield a clean integer, so the difference does not cleanly equal the marked answer of 904 cm³. The parameters appear not to have been validated to produce a clean, correct result."
+  },
+  {
+    "id": "80643ab0-e79d-467d-b2eb-45e2703da95c",
+    "template_id": "NUM_MS3_L2_076",
+    "question_text": "A solid metal cylinder has an outer radius of 10 cm and a height of 14 cm. A cylindrical hole is drilled through its entire length, leaving a hollow region with an inner radius of 6 cm. What is the volume of material remaining in the cylinder? (Use π = 22/7)",
+    "options": [
+      {
+        "label": "A",
+        "text": "7040 cm³",
+        "is_correct": true
+      },
+      {
+        "label": "B",
+        "text": "4400 cm³",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text": "1584 cm³",
+        "is_correct": false
+      },
+      {
+        "label": "D",
+        "text": "2816 cm³",
+        "is_correct": false
+      }
+    ],
+    "correct_answer": "A",
+    "correct_answer_explanation": "Outer volume = (22/7)×100×14 = 4,400 cm³. Inner (hole) volume = (22/7)×36×14 = 1,584 cm³. Material remaining = 4,400 − 1,584 = 2,816 cm³ — this matches Option D's text, not the marked Option A's value of 7,040 cm³.",
+    "flag_reason": "Mathematical error: Option A is marked correct with value '7040 cm³', but its own explanation correctly calculates the answer as 2,816 cm³. The actual correct answer (2,816 cm³) exists as Option D, which is marked incorrect."
+  },
+  {
+    "id": "346928d0-82cf-490d-bcff-5601b7baf550",
+    "template_id": "NUM_PC_L3_098",
+    "question_text": "A company's quarterly revenue started at £100,000. In the first month, revenue increased by 20%. In the second month, revenue decreased by 10%. In the third month, revenue increased by 15%. What is the net percentage change in revenue from the original amount?",
+    "options": [
+      {
+        "label": "A",
+        "text": "25%",
+        "is_correct": false
+      },
+      {
+        "label": "B",
+        "text": "24.48%",
+        "is_correct": true
+      },
+      {
+        "label": "C",
+        "text": "25%",
+        "is_correct": false
+      },
+      {
+        "label": "D",
+        "text": "20%",
+        "is_correct": false
+      }
+    ],
+    "correct_answer": "B",
+    "correct_answer_explanation": "1.20 × 0.90 × 1.15 = 1.242, i.e. a net increase of 24.2%, not the marked 24.48%.",
+    "flag_reason": "Mathematical error: using the stated parameters (20% increase, 10% decrease, 15% increase), the correct net change is 24.2%. The marked answer (Option B, 24.48%) does not match any defensible calculation with the given parameters, and no option presents the correct 24.2% figure."
+  },
+  {
+    "id": "705502cf-5c0b-488c-afc3-7c1094fb917e",
+    "template_id": "NUM_PL_L2_016",
+    "question_text": "A store offers two ways to buy a winter coat:\n\nOffer A: Pay the regular price of $120, then receive a 25% discount.\n\nOffer B: Buy the coat at a bundle price of $102.\n\nWhich offer results in the lower price?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Offer A is cheaper at $90",
+        "is_correct": false
+      },
+      {
+        "label": "B",
+        "text": "Offer B is cheaper at $102",
+        "is_correct": true
+      },
+      {
+        "label": "C",
+        "text": "Offer A is cheaper at $95",
+        "is_correct": false
+      },
+      {
+        "label": "D",
+        "text": "Both offers cost the same",
+        "is_correct": false
+      }
+    ],
+    "correct_answer": "B",
+    "correct_answer_explanation": "Offer A: $120 × 0.75 = $90. Offer B: $102. Since $90 < $102, Offer A is actually the cheaper option — the opposite of what the marked answer (Option B) states.",
+    "flag_reason": "Mathematical error: the marked correct answer (Option B, 'Offer B is cheaper at $102') is wrong. Offer A costs $90 after discount, which is cheaper than Offer B's $102. Option A states the correct price for Offer A ($90) but is marked incorrect; the truly correct answer should be Option A."
+  },
+  {
+    "id": "cc70fddf-aa18-484f-b3d0-71b7c4730b2d",
+    "template_id": "NUM_PL_L2_016",
+    "question_text": "A store offers two ways to buy a winter coat:\n\nOffer A: Regular price $80, with a 25% discount.\nOffer B: Regular price $100, with a 40% discount.\n\nWhich offer gives you the cheaper final price?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Offer A is cheaper at $60.00",
+        "is_correct": true
+      },
+      {
+        "label": "B",
+        "text": "Offer B is cheaper at $60.00",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text": "Offer A is cheaper because it has a lower regular price ($80 vs $100)",
+        "is_correct": false
+      },
+      {
+        "label": "D",
+        "text": "Offer B is cheaper because it has a larger discount (40% vs 25%)",
+        "is_correct": false
+      }
+    ],
+    "correct_answer": "A",
+    "correct_answer_explanation": "Offer A: $80 × 0.75 = $60.00. Offer B: $100 × 0.60 = $60.00. Both offers result in the identical final price of $60.00 — neither is actually cheaper than the other.",
+    "flag_reason": "No option among A–D is actually correct. Both Offer A and Offer B result in identical final prices ($60.00), so claims that either is 'cheaper' are false. The question's premise assumes one offer is cheaper when they are in fact equal."
+  },
+  {
+    "id": "6dec0c3f-37cd-47e7-822a-edf8f449d84b",
+    "template_id": "NUM_PL_L2_101",
+    "question_text": "A merchant sells two items, both for Rs 1100 each. One item was sold at a 10% profit on its cost price, while the other was sold at a 10% loss on its cost price. What is the net profit or loss on the two transactions combined?",
+    "options": [
+      {
+        "label": "A",
+        "text": "No profit, no loss",
+        "is_correct": false
+      },
+      {
+        "label": "B",
+        "text": "Loss of Rs 20",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text": "Loss of Rs 100",
+        "is_correct": true
+      },
+      {
+        "label": "D",
+        "text": "Profit of Rs 100",
+        "is_correct": false
+      }
+    ],
+    "correct_answer": "C",
+    "correct_answer_explanation": "CP at 10% profit: 1100/1.10 = 1000. CP at 10% loss: 1100/0.90 ≈ 1222.22. Total CP ≈ 2222.22; Total SP = 2200. Net loss ≈ 22.22, not the marked Rs 100.",
+    "flag_reason": "Mathematical error: the marked correct answer (C) states 'Loss of Rs 100', but the underlying calculation shows the actual loss is about Rs 22.22 (200/9). The option text contradicts its own explanation, and no option correctly represents the actual answer."
+  },
+  {
+    "id": "e177d78c-dbda-475e-8d76-24792abde048",
+    "template_id": "NUM_PL_L3_102",
+    "question_text": "A trader buys an item at cost price and sells it to a wholesaler at a 20% profit. The wholesaler then sells it to a retailer at a 25% profit. The retailer finally sells it to a customer for Rs. 7,500. What was the original cost price?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Rs. 5,000",
+        "is_correct": true
+      },
+      {
+        "label": "B",
+        "text": "Rs. 5,625",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text": "Rs. 6,000",
+        "is_correct": false
+      },
+      {
+        "label": "D",
+        "text": "Rs. 4,687.50",
+        "is_correct": false
+      }
+    ],
+    "correct_answer": "A",
+    "correct_answer_explanation": "Working backward: 7,500 / 1.25 = 6,000 (retailer's cost from wholesaler = wholesaler's selling price). 6,000 / 1.25 = 4,800 (wholesaler's cost = trader's selling price, since wholesaler also sold at 25% profit per the passage). 4,800 / 1.20 = 4,000 (original cost price), not the marked Rs. 5,000.",
+    "flag_reason": "Mathematical error: the passage states the wholesaler sells at 25% profit (not 20% as used in the marked explanation). Working correctly through both 25%-profit stages and the 20%-profit stage gives an original cost price of Rs. 4,000, which does not appear among the options. The marked answer (A, Rs. 5,000) is incorrect."
+  },
+  {
+    "id": "68d38f6b-e6c5-4e4a-8775-67382607faf4",
+    "template_id": "NUM_PN_L3_122",
+    "question_text": "A baker is arranging 3-digit product codes using the digits 1, 2, 4, 5, and 7. How many different 3-digit codes can be formed such that the number is divisible by 5? (Each digit may be used at most once per code.)",
+    "options": [
+      {
+        "label": "A",
+        "text": "16",
+        "is_correct": true
+      },
+      {
+        "label": "B",
+        "text": "12",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text": "20",
+        "is_correct": false
+      },
+      {
+        "label": "D",
+        "text": "24",
+        "is_correct": false
+      }
+    ],
+    "correct_answer": "A",
+    "correct_answer_explanation": "Last digit must be 5 (divisibility by 5, since 0 isn't in the digit set). Remaining digits {1,2,4,7}: first position has 4 choices, second position has 3 remaining choices (no repetition, per the stated constraint). Total = 4 × 3 = 12, not the marked 16.",
+    "flag_reason": "Mathematical error: the marked correct answer (A: 16) contradicts the question's explicit 'no repetition' constraint. With no repeats allowed, the correct answer is 12 (Option B): 4 choices for the first position × 3 for the second, with the last digit fixed as 5."
+  },
+  {
+    "id": "3af9c194-b176-4cf9-9067-b26b9a907330",
+    "template_id": "NUM_PN_L3_123",
+    "question_text": "Eight people are to be seated around a circular table. Two of them, Alice and Bob, must sit next to each other. How many distinct seating arrangements are possible?",
+    "options": [
+      {
+        "label": "A",
+        "text": "8640",
+        "is_correct": true
+      },
+      {
+        "label": "B",
+        "text": "10080",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text": "5040",
+        "is_correct": false
+      },
+      {
+        "label": "D",
+        "text": "40320",
+        "is_correct": false
+      }
+    ],
+    "correct_answer": "A",
+    "correct_answer_explanation": "Treat Alice and Bob as one unit, giving 7 units to arrange circularly: (7−1)! = 6! = 720 ways. Within the unit, Alice and Bob can swap: ×2. Total = 720 × 2 = 1,440. This is the correct answer; the marked 8,640 improperly multiplies by an extra factor of 6 that has no basis in circular permutation logic.",
+    "flag_reason": "Mathematical error: the correct answer is 1,440 (using (n-1)! for circular arrangements). The marked correct answer (A: 8640) incorrectly multiplies the correct 1,440 by an unjustified extra factor of 6. No option among A–D contains the correct answer of 1,440."
+  },
+  {
+    "id": "5607a81b-94d8-4b00-b9ae-0ecccc93f376",
+    "template_id": "NUM_PR_L3_057",
+    "question_text": "A carnival game costs £3 to play. If you win (probability 0.4), you receive a prize worth £8. If you lose (probability 0.6), you receive nothing. What is your expected profit or loss per game?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Expected profit of £1.20",
+        "is_correct": false
+      },
+      {
+        "label": "B",
+        "text": "Expected loss of £0.80",
+        "is_correct": true
+      },
+      {
+        "label": "C",
+        "text": "Expected profit of £3.20",
+        "is_correct": false
+      },
+      {
+        "label": "D",
+        "text": "Expected loss of £1.80",
+        "is_correct": false
+      }
+    ],
+    "correct_answer": "B",
+    "correct_answer_explanation": "Expected payout = 0.4×£8 + 0.6×£0 = £3.20. Net expected value = £3.20 − £3 (cost) = £0.20, i.e. an expected PROFIT of £0.20 — not the marked 'expected loss of £0.80'.",
+    "flag_reason": "Mathematical error: using the stated parameters, the expected value is a profit of £0.20, which does not match any of the four options. The marked answer (B, expected loss of £0.80) is mathematically incorrect for the given parameters."
+  },
+  {
+    "id": "70d0af80-4000-4c3d-9b10-f922e92e34e1",
+    "template_id": "NUM_PR_L3_124",
+    "question_text": "A factory uses two machines to produce widgets. Machine A produces 60% of all widgets and has a defect rate of 5%. Machine B produces 40% of all widgets and has a defect rate of 8%. A widget is selected at random from production and found to be defective. What is the probability that it came from Machine A?",
+    "options": [
+      {
+        "label": "A",
+        "text": "0.05",
+        "is_correct": false
+      },
+      {
+        "label": "B",
+        "text": "0.474",
+        "is_correct": true
+      },
+      {
+        "label": "C",
+        "text": "0.60",
+        "is_correct": false
+      },
+      {
+        "label": "D",
+        "text": "0.375",
+        "is_correct": false
+      }
+    ],
+    "correct_answer": "B",
+    "correct_answer_explanation": "P(defective) = 0.05×0.6 + 0.08×0.4 = 0.03 + 0.032 = 0.062. P(A|defective) = 0.03 / 0.062 ≈ 0.484, not the marked 0.474.",
+    "flag_reason": "Mathematical error: using Bayes' theorem correctly on the stated parameters gives P(A|defective) ≈ 0.484, not the marked 0.474. The explanation's supporting arithmetic (dividing by 63.5 rather than 62) is unfounded."
+  },
+  {
+    "id": "f42ed2d2-9e5a-4d5a-9270-269cbde0b645",
+    "template_id": "NUM_PR_L3_124",
+    "question_text": "A quality inspector tests electronic components from two suppliers. Supplier A provides 35% of components and has a defect rate of 4%. Supplier B provides 65% of components and has a defect rate of 2%. A randomly selected component is found to be defective. What is the probability it came from Supplier A?",
+    "options": [
+      {
+        "label": "A",
+        "text": "0.04",
+        "is_correct": false
+      },
+      {
+        "label": "B",
+        "text": "14/29",
+        "is_correct": true
+      },
+      {
+        "label": "C",
+        "text": "0.35",
+        "is_correct": false
+      },
+      {
+        "label": "D",
+        "text": "7/27",
+        "is_correct": false
+      }
+    ],
+    "correct_answer": "B",
+    "correct_answer_explanation": "P(defective) = 0.04×0.35 + 0.02×0.65 = 0.014 + 0.013 = 0.027. P(A|defective) = 0.014/0.027 = 14/27 ≈ 0.5185, not 14/29 (≈0.483).",
+    "flag_reason": "Mathematical error: correct application of Bayes' theorem gives 14/27, not the marked 14/29. The explanation's step converting 14/27 into 14/29 (via an invalid multiplication by 27/29) is not a valid mathematical operation. No option among A–D is correct."
+  },
+  {
+    "id": "8387363c-6ea2-4c1b-8886-22337366784a",
+    "template_id": "NUM_PT_L2_047",
+    "question_text": "A tank is being filled by two inlet pipes and drained by one outlet pipe, all open at the same time. Inlet A fills at 12 litres per minute, Inlet B fills at 8 litres per minute, and the outlet drains at 5 litres per minute. How many minutes will it take to fill a 300-litre tank?",
+    "options": [
+      {
+        "label": "A",
+        "text": "15 minutes",
+        "is_correct": true
+      },
+      {
+        "label": "B",
+        "text": "20 minutes",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text": "37.5 minutes",
+        "is_correct": false
+      },
+      {
+        "label": "D",
+        "text": "10 minutes",
+        "is_correct": false
+      }
+    ],
+    "correct_answer": "A",
+    "correct_answer_explanation": "Net fill rate = 12+8−5 = 15 L/min. Time to fill 300 L = 300 ÷ 15 = 20 minutes (Option B's value), not the marked Option A's value of 15 minutes.",
+    "flag_reason": "Mathematical error: the marked correct answer (A: 15 minutes) is wrong. With a 300-litre tank and net rate of 15 L/min, the correct time is 20 minutes (Option B). The explanation for Option A only reaches 15 minutes by silently substituting a 225-litre tank capacity, contradicting the stated 300-litre tank."
+  },
+  {
+    "id": "00a7129e-a9e6-414e-a3e6-9fe66afb8e9e",
+    "template_id": "NUM_PT_L3_049",
+    "question_text": "A construction site needs to fill a 480-liter tank. Three pumping options are available:\n\n• Option A: Pump 1 fills at 40 liters/hour and costs $15/hour\n• Option B: Pump 2 fills at 30 liters/hour and costs $8/hour\n• Option C: Pump 3 fills at 20 liters/hour and costs $5/hour\n\nThe tank must be filled within 14 hours. Which option minimizes the total cost while meeting the time requirement?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Option A: Total cost = $180",
+        "is_correct": false
+      },
+      {
+        "label": "B",
+        "text": "Option B: Total cost = $128",
+        "is_correct": true
+      },
+      {
+        "label": "C",
+        "text": "Option C: Total cost = $100",
+        "is_correct": false
+      },
+      {
+        "label": "D",
+        "text": "Option A: Total cost = $120",
+        "is_correct": false
+      }
+    ],
+    "correct_answer": "B",
+    "correct_answer_explanation": "Option B (Pump 2) fills 480 L at 30 L/hr, requiring 480÷30 = 16 hours — this exceeds the stated 14-hour limit and is infeasible. Option A (Pump 1) fills in 480÷40 = 12 hours (within the limit), costing 12×$15 = $180, making it the only feasible option under the 14-hour cap.",
+    "flag_reason": "Logical/mathematical error: under the stated 14-hour constraint, Option B requires 16 hours and is infeasible. Only Option A (12 hours, $180) meets the time requirement, yet the marked correct answer is Option B ($128), which is mathematically impossible given the passage's own 14-hour constraint."
+  },
+  {
+    "id": "6f5a397f-be14-4ce9-b533-850866fc96a4",
+    "template_id": "NUM_RM_L1_067",
+    "question_text": "What is the remainder when 247 is divided by 13?",
+    "options": [
+      {
+        "label": "A",
+        "text": "13",
+        "is_correct": true
+      },
+      {
+        "label": "B",
+        "text": "0",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text": "9",
+        "is_correct": false
+      },
+      {
+        "label": "D",
+        "text": "17",
+        "is_correct": false
+      }
+    ],
+    "correct_answer": "A",
+    "correct_answer_explanation": "13 × 19 = 247 exactly, so 247 ÷ 13 leaves a remainder of 0, not 13. (Note: a valid remainder can never equal the divisor itself, which is a further sign the marked answer is wrong.)",
+    "flag_reason": "Mathematical error: the correct remainder when 247 is divided by 13 is 0 (since 13 × 19 = 247 exactly), but option A is marked correct with the value '13' — a value that by definition cannot be a valid remainder for division by 13."
+  },
+  {
+    "id": "e3c905e8-4c39-4c52-852e-2ce8c4963dbf",
+    "template_id": "NUM_RM_L3_069",
+    "question_text": "Find a number between 1 and 100 that leaves a remainder of 3 when divided by 5 and a remainder of 2 when divided by 7.",
+    "options": [
+      {
+        "label": "A",
+        "text": "58",
+        "is_correct": true
+      },
+      {
+        "label": "B",
+        "text": "23",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text": "38",
+        "is_correct": false
+      },
+      {
+        "label": "D",
+        "text": "53",
+        "is_correct": false
+      }
+    ],
+    "correct_answer": "A",
+    "correct_answer_explanation": "58 ÷ 5 = 11 remainder 3 ✓; 58 ÷ 7 = 8 remainder 2 ✓. However, 23 also satisfies both conditions (23÷5 = 4 r3; 23÷7 = 3 r2), as does 93.",
+    "flag_reason": "Two options are equally defensible as correct: both Option A (58) and Option B (23) satisfy the stated conditions (remainder 3 mod 5 and remainder 2 mod 7). The marked explanation incorrectly claims 58 is the unique solution in 1–100, when in fact 23, 58, and 93 all satisfy both conditions."
+  },
+  {
+    "id": "85341398-c913-4f5b-87fb-0477e0682671",
+    "template_id": "NUM_RM_L3_129",
+    "question_text": "What is the remainder when 7^145 is divided by 25?",
+    "options": [
+      {
+        "label": "A",
+        "text": "18",
+        "is_correct": true
+      },
+      {
+        "label": "B",
+        "text": "7",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text": "1",
+        "is_correct": false
+      },
+      {
+        "label": "D",
+        "text": "24",
+        "is_correct": false
+      }
+    ],
+    "correct_answer": "A",
+    "correct_answer_explanation": "The cycle of 7^n mod 25 is [7, 24, 18, 1] with period 4. 145 mod 4 = 1, so 7^145 ≡ 7^1 ≡ 7 (mod 25), not the marked 18.",
+    "flag_reason": "Mathematical error: the correct answer to 7^145 mod 25 is 7 (Option B), not 18 (Option A) which is marked correct. Since the cycle length is 4 and 145 mod 4 = 1, the result should map to position 1 of the cycle (7), not position 3 (18)."
+  },
+  {
+    "id": "b78e9b65-747c-4c75-9dc2-b2fcced82400",
+    "template_id": "NUM_RP_L2_003",
+    "question_text": "At a factory, the ratio of machines to workers is 2:5. The ratio of workers to supervisors is 3:2. If there are 30 machines, how many supervisors are there?",
+    "options": [
+      {
+        "label": "A",
+        "text": "20",
+        "is_correct": false
+      },
+      {
+        "label": "B",
+        "text": "25",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text": "20",
+        "is_correct": true
+      },
+      {
+        "label": "D",
+        "text": "50",
+        "is_correct": false
+      }
+    ],
+    "correct_answer": "C",
+    "correct_answer_explanation": "Combine ratios via common term (workers): Machines:Workers = 2:5 → scale ×3 → 6:15. Workers:Supervisors = 3:2 → scale ×5 → 15:10. Combined Machines:Workers:Supervisors = 6:15:10. With 30 machines (30÷6=5 scale factor), supervisors = 10×5 = 50, not the marked 20.",
+    "flag_reason": "Answer-key misalignment: the marked correct answer (Option C, displaying '20') does not match its own explanation, which correctly derives 50 supervisors. The correct answer (50) exists as Option D but is marked incorrect."
+  },
+  {
+    "id": "a7d772ef-7760-4e36-808a-c2df14f74302",
+    "template_id": "NUM_RP_L3_095",
+    "question_text": "The current ratio of Anna's age to Ben's age is 3:5. In 6 years, the ratio of Anna's age to Ben's age will be 4:6. What is Anna's current age?",
+    "options": [
+      {
+        "label": "A",
+        "text": "12",
+        "is_correct": true
+      },
+      {
+        "label": "B",
+        "text": "9",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text": "20",
+        "is_correct": false
+      },
+      {
+        "label": "D",
+        "text": "15",
+        "is_correct": false
+      }
+    ],
+    "correct_answer": "A",
+    "correct_answer_explanation": "Let Anna = 3k, Ben = 5k. In 6 years: (3k+6)/(5k+6) = 4/6. Cross-multiplying: 6(3k+6) = 4(5k+6) → 18k+36 = 20k+24 → 2k = 12 → k = 6. Anna's current age = 3k = 18, not the marked 12. (Verification: Anna=18, Ben=30 now; in 6 years, 24:36 = 4:6 ✓.)",
+    "flag_reason": "Mathematical error: the explanation correctly derives k=6, but then miscalculates Anna's current age as 3(6)=... actually mistakenly states 12 instead of the correct 18. The correct answer (18) does not appear among the options."
+  },
+  {
+    "id": "f4905f6d-2d9c-4442-afac-4e714edb9714",
+    "template_id": "NUM_RP_L3_096",
+    "question_text": "Three partners invest in a business. At the start of the year, Alice invests $12,000, Bob invests $8,000, and Chen invests $10,000. After 6 months, Alice doubles her capital investment to $24,000. The business generates a profit of $18,000 at the end of the year. Assuming profit is split in proportion to capital-months (the product of capital invested and time invested), what is Chen's share of the profit?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$4,500",
+        "is_correct": false
+      },
+      {
+        "label": "B",
+        "text": "$5,400",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text": "$4,800",
+        "is_correct": true
+      },
+      {
+        "label": "D",
+        "text": "$6,000",
+        "is_correct": false
+      }
+    ],
+    "correct_answer": "C",
+    "correct_answer_explanation": "Capital-months: Alice = (12,000×6)+(24,000×6) = 216,000. Bob = 8,000×12 = 96,000. Chen = 10,000×12 = 120,000. Total = 432,000. Chen's share = (120,000/432,000)×18,000 = (5/18)×18,000 = $5,000, not the marked $4,800.",
+    "flag_reason": "Mathematical error: using the stated data (profit $18,000), the correct answer is $5,000, which does not appear among the options. The marked correct answer (Option C, $4,800) is incorrect; the explanation only reaches $4,800 by silently substituting a profit of $17,280 instead of the stated $18,000."
+  },
+  {
+    "id": "14029c34-b7af-4169-a51d-d89eafcd5999",
+    "template_id": "NUM_RP_L3_097",
+    "question_text": "A container holds 120 litres of milk and water mixed in the ratio 5:3. Some of this mixture is removed and replaced with pure water, resulting in a final ratio of milk to water of 5:4. How many litres of mixture were removed?",
+    "options": [
+      {
+        "label": "A",
+        "text": "15 litres",
+        "is_correct": true
+      },
+      {
+        "label": "B",
+        "text": "24 litres",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text": "9 litres",
+        "is_correct": false
+      },
+      {
+        "label": "D",
+        "text": "18 litres",
+        "is_correct": false
+      }
+    ],
+    "correct_answer": "A",
+    "correct_answer_explanation": "Initial milk = 75 L, water = 45 L. Let x be removed: 4(75 − 5x/8) = 5(45 + 5x/8) → 300 − 2.5x = 225 + 3.125x → 75 = 5.625x → x = 600/45 = 40/3 ≈ 13.33 litres, not exactly 15.",
+    "flag_reason": "Mathematical error: the algebra in the explanation correctly derives 600 = 45x, but then incorrectly concludes x = 15 rather than x = 600/45 ≈ 13.33 litres. Verification shows x = 15 does not satisfy the final 5:4 ratio, and the correct value is not present among the options."
+  },
+  {
+    "id": "8626fd33-5b63-4b03-a623-7a2656cc6295",
+    "template_id": "NUM_TW_L2_036",
+    "question_text": "Alice can complete a job in 12 days working alone. Bob can complete the same job in 18 days working alone. Alice works alone for 4 days, then Bob joins her. How many more days will it take for them to complete the job together?",
+    "options": [
+      {
+        "label": "A",
+        "text": "5.6 days",
+        "is_correct": false
+      },
+      {
+        "label": "B",
+        "text": "7.2 days",
+        "is_correct": true
+      },
+      {
+        "label": "C",
+        "text": "8 days",
+        "is_correct": false
+      },
+      {
+        "label": "D",
+        "text": "4 days",
+        "is_correct": false
+      }
+    ],
+    "correct_answer": "B",
+    "correct_answer_explanation": "Alice completes 4/12 = 1/3 of the job in 4 days; 2/3 remains. Combined rate = 1/12 + 1/18 = 5/36 per day. Time = (2/3) ÷ (5/36) = (2/3) × (36/5) = 72/15 = 4.8 days, not 7.2 days.",
+    "flag_reason": "Mathematical error in the marked correct answer's arithmetic: the explanation computes (2/3)×(36/5) but incorrectly states the result as 72/10=7.2 instead of the correct 72/15=4.8 days. Since 4.8 days is not among the options, no defensible correct answer exists among A–D."
+  },
+  {
+    "id": "c5705731-71dc-46d8-a3cd-a4c46ed3adec",
+    "template_id": "NUM_TW_L3_039",
+    "question_text": "A project requires 240 units of work to be completed. Worker A can complete 30 units per day and is available for 6 days. Worker B can complete 20 units per day but will only be available for 5 days due to other commitments. If both workers start on day 1 and work simultaneously during their available periods, will the project be completed within the 6-day deadline?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Yes, the project will be completed with 30 units of work remaining.",
+        "is_correct": false
+      },
+      {
+        "label": "B",
+        "text": "No, the project will fall short by 10 units of work.",
+        "is_correct": true
+      },
+      {
+        "label": "C",
+        "text": "Yes, the project will be completed with 50 units of work remaining.",
+        "is_correct": false
+      },
+      {
+        "label": "D",
+        "text": "No, the project will fall short by 50 units of work.",
+        "is_correct": false
+      }
+    ],
+    "correct_answer": "B",
+    "correct_answer_explanation": "Worker A completes 30×6 = 180 units. Worker B completes 20×5 = 100 units. Total = 280 units, which exceeds the 240-unit requirement by 40 units — the project is completed with 40 units to spare, not falling short by 10 units as marked.",
+    "flag_reason": "Mathematical error: using the passage's stated 240-unit requirement, total work completed (280 units) exceeds the requirement by 40 units, so the project is completed with surplus capacity. The marked correct answer (Option B, 'falls short by 10 units') is incorrect; it only holds if the requirement were silently changed to 290 units instead of the stated 240."
+  }
+]
